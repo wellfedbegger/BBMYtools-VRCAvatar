@@ -1,0 +1,14 @@
+{
+  "name": "com.wellfedbegger.bbmytools-vrcavatar",
+  "displayName": "BBMYtools - VRCAvatar",
+  "version": "0.0.1",
+  "unity": "2022.3",
+  "description": "Utilities for VRC avatar setup",
+  "author": {
+    "name": "wellfedbegger",
+    "url": "https://github.com/wellfedbegger"
+  },
+  "vpmDependencies": {
+    "com.vrchat.avatars": ">=3.4.0"
+  }
+}
