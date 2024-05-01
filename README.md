@@ -1,13 +1,29 @@
-# VPM Package Template
+# BBMYtools - VRCAvatar
 
-A customized VPM package template derived from [vrchat-community/template-package](https://github.com/vrchat-community/template-package).
-It has been modified to allow the management of multiple VPM package repositories within the same Unity project by altering the template's folder structure.
+VRChat アバターをセットアップする際に役立つ Unity ツール集。
 
-How to use: Clone this repository into the `Packages` directory of your Unity project
+# 収録ツール一覧
 
----
+## AvatarParameterViewer
 
-[vrchat-community/template-package](https://github.com/vrchat-community/template-package) を基にカスタマイズした VPM パッケージ テンプレート。
-同じ Unity プロジェクト内で複数の VPM パッケージ リポジトリを管理できるように、主にディレクトリ構造を変更した。
+指定した名前のパラメーターが、Avatar のどこで使用されているかを検索して一覧する。
 
-使用方法：このリポジトリを Unity プロジェクトの `Packages` ディレクトリに clone
+### 検索範囲
+
+- 各 Playable Layer に使用している各 Animator の、
+
+  - Parameter
+  - 各ステートの遷移条件
+- `VRC Expression Parameters`
+- `VRC Expression Menu`
+- `VRC PhysBone` の `Parameter`
+- `VRC Contact Receiver` の `Parameter`
+- motion timeなど…
+
+### 制約・未対応機能
+
+一部は今後のアップデートで対応する場合がある。
+
+- Modular Avatar で設定したパラメーター
+- 部分一致検索
+- Playable Layerを指定していない際に使用される、デフォルトAnimatorからの検索

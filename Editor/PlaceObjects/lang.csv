@@ -1,0 +1,2 @@
+Language	日本語	English
+sInfo	「Objects」の各オブジェクトの位置・回転・スケールを、「Anchors」の各オブジェクトに一致させます。\n\n「Objectsの要素n」は「Anchorsの要素n」に合わせられます。\n必要に応じてリストの並び替えを行ってください。	Aligns the position, rotation, and scale of each object specified in 'Objects' to match each object specified in 'Anchors'.\n\nEach element 'n' of 'Objects' will be matched to the element 'n' of 'Anchors'.\nPlease reorder the list as needed.

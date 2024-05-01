@@ -1,0 +1,3 @@
+Language	日本語	English
+sPBModeDescription	このモードがOnの時、入力したPBパラメータ名接頭辞をに加えてさらに、\n以下が検索･リネーム対象になります	When this mode is On, the following will be searched and renamed based on the input PB parameter name prefix.
+sPBParameterbasename	PhysBoneパラメータ名接頭辞	PhysBone parameter name prefix

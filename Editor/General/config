@@ -1,0 +1,13 @@
+{
+  "ShowThis": true,
+  "int": 50,
+  "multi": {
+    "aaaaa": [
+      1,
+      2,
+      3
+    ]
+  },
+  "LangTest.myLangIndex": 1,
+  "General.myLanguageIdx": 0
+}
